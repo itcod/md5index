@@ -1,13 +1,16 @@
 # md5index
--- Copyright (c) 2015 by Yura Vdovytchenko (max@itcod.com)
+Copyright (c) 2015 by Yura Vdovytchenko (max@itcod.com)
 
--- Copyright (c)itcod 2010-2015
+Copyright (c)itcod 2010-2015
 
 local description = {
 
   _COPYRIGHT   = "Yura Vdovytchenko",
+  
   _VERSION     = "md5index.lua 15.05.10",
+  
   _URL         = "https://ihome.itcod.com/max/projects/md5index/",
+  
   _DESCRIPTION = [[
    SOA ITCOD. Nginx addon for function autoindex. Add in body html:
    1. HASH code files. Support secure hash: md5 md4 sha1 sha ripemd160;
