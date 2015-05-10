@@ -106,7 +106,7 @@ server {
 	
 	set $md5index_type on; #on/off nil=off # добавит в строки описание типа file/directory/etc...
 	
-	set $md5index_ico http://ihome.itcod.com/max/projects/libs/icons16/; # путь к библиотека иконок
+	set $md5index_ico http://ihome.itcod.com/max/projects/libs/icons16ext/; # путь к библиотека иконок
 	
 	set $md5index_icopref icon-; # префикс имени файла иконки
 	
