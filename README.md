@@ -7,7 +7,7 @@ local description = {
 
   _COPYRIGHT   = "Yura Vdovytchenko",
   
-  _VERSION     = "md5index.lua 15.05.10",
+  _VERSION     = "md5index.lua 15.05.11",
   
   _URL         = "https://ihome.itcod.com/max/projects/md5index/",
   
@@ -89,6 +89,7 @@ server {
     
     location / {
 	#.........
+	#set $file_open .htopen; #(auth-dav.lua) nil or namefiledir:hide
 	client_max_body_size 0;
 	autoindex on;
         root $dir;
@@ -120,3 +121,13 @@ server {
 }
   ]]
 }
+
+------------------------
+
+HISTORY
+
+15.05.10 StartUp версия 
+
+15.05.11 1.Добавлена обработка .файла доступа и блокировок .htopen (qv: history auth-dav.lua 15.05.10)
+         2. Добавлен ключ hide для не отображаемых папок и файлов в списке autoindex
+         3. Добавлено зачёркивание файлов в списке, имеющих блокированный доступ (block)
