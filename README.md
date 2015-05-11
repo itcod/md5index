@@ -21,7 +21,9 @@ local description = {
    Test computation in Lua (5.1)
    Author by Yura Vdovytchenko (max@itcod.com)
   ]],
-  _LICENSE = [[
+  
+_LICENSE = [[
+
     MIT LICENSE
 
     Permission is hereby granted, free of charge, to any person obtaining a
@@ -45,6 +47,9 @@ local description = {
   ]]
 }
 -----------------------------------------------------------------------------------
+
+CONFIGURE
+
 --path lua file: /etc/nginx/lua/md5index.lua
 
 --Example Nginx virtual example.conf
