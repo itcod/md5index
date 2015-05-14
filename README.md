@@ -146,5 +146,7 @@ HISTORY
 
 15.05.14 Добавлена возможность файлы с определёнными расширениями открывать 
          в определённом/отдельном окне
+         
          set $md5index_win _blank; # target window for !winext! files
+         
          set $md5index_winext htm.html.txt; # file extensions for target windows
