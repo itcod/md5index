@@ -120,6 +120,10 @@ server {
 	
 	set $md5index_icoext .gif; # расширение файла иконки
 	
+	set $md5index_win _blank; # target window for !winext! files
+
+	set $md5index_winext htm.html.txt; # file extensions for target windows
+
         body_filter_by_lua_file /etc/nginx/lua/md5index.lua; # addon обработчик
         
     }
@@ -139,3 +143,8 @@ HISTORY
             в списке autoindex
          3. Добавлено зачёркивание файлов в списке, имеющих 
             блокированный доступ (block)
+
+15.05.14 Добавлена возможность файлы с определёнными расширениями открывать 
+         в определённом/отдельном окне
+         set $md5index_win _blank; # target window for !winext! files
+         set $md5index_winext htm.html.txt; # file extensions for target windows
