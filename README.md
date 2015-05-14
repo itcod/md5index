@@ -7,7 +7,7 @@ local description = {
 
   _COPYRIGHT   = "Yura Vdovytchenko",
   
-  _VERSION     = "md5index.lua 15.05.11",
+  _VERSION     = "md5index.lua 15.05.14",
   
   _URL         = "https://ihome.itcod.com/max/projects/md5index/",
   
