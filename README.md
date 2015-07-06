@@ -9,7 +9,7 @@ local description = {
   
   _VERSION     = "md5index.lua 15.05.14",
   
-  _URL         = "https://ihome.itcod.com/max/projects/md5index/",
+  _URL         = "http://ihome.itcod.com/max/projects/itcod-disk/md5index/",
   
   _DESCRIPTION = [[
 
